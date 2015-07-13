@@ -121,7 +121,7 @@ def mod(value, arg):
 mod.is_safe = False
 
 
-@register.filter(name='addition')
+@register.filter(name='add2')
 def addition(value, arg):
     """Float-friendly replacement for Django's built-in `add` filter."""
     try:
